@@ -81,7 +81,7 @@ function App() {
               }}
               onClick={handleNoClick} // Call handleNoClick function when "No" button is clicked
               onMouseOver={(e) => e.target.style.backgroundColor = '#EF4444'} // Change to blue on hover
-              onMouseOut={(e) => e.target.style.backgroundColor = '#808080'}  // change back
+              onMouseOut={(e) => e.target.style.backgroundColor = '#808080'}  // change backing
             >
               {noClickCount === 0 ? 'No' : `Are you really ${'really '.repeat(noClickCount)}sure?`} {/* Dynamically change button text */}
             </button>
